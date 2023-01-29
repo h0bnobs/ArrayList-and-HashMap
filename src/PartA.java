@@ -16,8 +16,10 @@ public class PartA
 
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
+
         System.out.print("Enter the upperbound: ");
         int upperBound = scanner.nextInt();
+
         System.out.print("Here is a list of " + size + " random numbers that go from 0-" + upperBound + " ");
         ArrayList<Integer> list = new ArrayList<>(size);
         for (int j = 0; j < size; j++) {
